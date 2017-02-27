@@ -205,12 +205,14 @@
 					};
 					911820681E635D7F000A25D8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = R53MV2MVHS;
+						ProvisioningStyle = Manual;
 						TestTargetID = 911820541E635D7F000A25D8;
 					};
 					911820731E635D7F000A25D8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = R53MV2MVHS;
+						ProvisioningStyle = Manual;
 						TestTargetID = 911820541E635D7F000A25D8;
 					};
 				};
@@ -456,6 +458,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R53MV2MVHS;
 				INFOPLIST_FILE = DeviceFarmTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmtechnology.DeviceFarmTestTests;
@@ -470,6 +474,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R53MV2MVHS;
 				INFOPLIST_FILE = DeviceFarmTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmtechnology.DeviceFarmTestTests;
@@ -483,10 +488,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R53MV2MVHS;
 				INFOPLIST_FILE = DeviceFarmTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmtechnology.DeviceFarmTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b8e9265-2a6f-414b-a882-966c19439132";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Provisioning Profile";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DeviceFarmTest;
 			};
@@ -496,10 +504,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R53MV2MVHS;
 				INFOPLIST_FILE = DeviceFarmTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmtechnology.DeviceFarmTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b8e9265-2a6f-414b-a882-966c19439132";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Provisioning Profile";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DeviceFarmTest;
 			};
